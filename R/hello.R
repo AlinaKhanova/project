@@ -17,10 +17,6 @@
 #' clean_unemp(unemp_2013,
 #'             grepl("Canton", commune),
 #'             active_population)
-#' # Filter on a specific commune
-#' clean_unemp(unemp_2013,
-#'             grepl("Kayl", commune),
-#'             active_population)
 clean_unemp <- function(unemp_data, level, col_of_interest){
 
   unemp_data |>
